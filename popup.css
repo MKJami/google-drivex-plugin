@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-size: cover;
+    background-position: center;
+}
+
+#quoteText {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#quoteAuthor {
+    font-size: 1.5em;
+    text-align: right;
+    font-style: italic;
+}
+
+body:nth-of-type(1) {
+    background-image: url('images/background1.jpg');
+}
+
+body:nth-of-type(2) {
+    background-image: url('images/background2.jpg');
+}
+
+body:nth-of-type(3) {
+    background-image: url('images/background3.jpg');
+}
+
+body:nth-of-type(4) {
+    background-image: url('images/background4.jpg');
+}
+
+body:nth-of-type(5) {
+    background-image: url('images/background5.jpg');
+}
